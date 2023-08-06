@@ -1,0 +1,14 @@
+898-includes
+infer,  extends, readonly
+// explain Expect
+https://stackoverflow.com/questions/68961864/how-does-the-equals-work-in-typescript/68963796#68963796
+
+type Equals<X, Y> =
+    (<T>() => T extends X ? 1 : 2) extends
+    (<T>() => T extends Y ? 1 : 2) ? true : false;
+
+会检查是否所有类型都满足既能赋值给X，也能赋值给Y
+
+type Equals<X, Y> = X extends Y ? Y extends X ? true : false : false;
+
+只会检查是否 X 能赋值给 Y 且 Y 能赋值给 X，在部分情况下会出现错误
