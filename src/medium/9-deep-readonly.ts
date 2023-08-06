@@ -36,13 +36,13 @@
 
 /* _____________ Your Code Here _____________ */
 
-type DeepReadonly<T> = T extends Record<string, unknown>
-    ? {
+// eslint-disable-next-line @typescript-eslint/ban-types
+type Primary = string | number | boolean | symbol | Function;
+type DeepReadonly<T> = T extends Primary
+    ? T
+    : {
           readonly [key in keyof T]: DeepReadonly<T[key]>;
-      }
-    : T extends [infer F, ...infer R]
-    ? readonly [DeepReadonly<F>, ...DeepReadonly<R>]
-    : T;
+      };
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from "@type-challenges/utils";
