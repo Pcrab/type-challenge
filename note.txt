@@ -12,3 +12,8 @@ type Equals<X, Y> =
 type Equals<X, Y> = X extends Y ? Y extends X ? true : false : false;
 
 只会检查是否 X 能赋值给 Y 且 Y 能赋值给 X，在部分情况下会出现错误
+
+3312-parameters
+(...args: any[]) => any 应当写成 (...args: never[]) => unknown
+需要使用者明确指定类型的时候用 unknown
+不需要知道这是什么类型的时候用 never
