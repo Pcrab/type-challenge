@@ -17,3 +17,7 @@ type Equals<X, Y> = X extends Y ? Y extends X ? true : false : false;
 (...args: any[]) => any 应当写成 (...args: never[]) => unknown
 需要使用者明确指定类型的时候用 unknown
 不需要知道这是什么类型的时候用 never
+
+3-omit
+https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as
+使用 as 来 remap key
