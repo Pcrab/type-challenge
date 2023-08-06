@@ -21,3 +21,8 @@ type Equals<X, Y> = X extends Y ? Y extends X ? true : false : false;
 3-omit
 https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as
 使用 as 来 remap key
+
+9-deep-readonly
+https://stackoverflow.com/questions/68693054/what-is-extends-never-used-for/68693367
+extends never 指找不到任何确定的 key 的情况
+因此 {a: string} | {b: string} 也没有确定的 key，会继承 never
