@@ -29,3 +29,11 @@ extends never 指找不到任何确定的 key 的情况
 
 12-chainable-options
 题目挺好，result3 又要有 type-error 又要通过不太合理
+
+20-promise-all
+https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-0.html#variadic-tuple-types
+https://github.com/microsoft/TypeScript/pull/39094
+{
+    [key in keyof T]: T[key]
+}
+也可以用于数组类型！
