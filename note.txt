@@ -26,3 +26,6 @@ https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-v
 https://stackoverflow.com/questions/68693054/what-is-extends-never-used-for/68693367
 extends never 指找不到任何确定的 key 的情况
 因此 {a: string} | {b: string} 也没有确定的 key，会继承 never
+
+12-chainable-options
+题目挺好，result3 又要有 type-error 又要通过不太合理
