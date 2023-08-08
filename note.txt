@@ -41,3 +41,7 @@ https://github.com/microsoft/TypeScript/pull/39094
 110-capitalize
 https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#extends-constraints-on-infer-type-variables
 infer 在 ts 4.7 中被增强了，可以在之后使用 extends
+
+191-append-arguments
+关于用到的 “any function” 类型 (...args: never[]): unknown
+https://www.reddit.com/r/typescript/comments/muyl55/understanding_args_never_in_typescript_handbook/?rdt=35546
