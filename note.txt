@@ -37,3 +37,7 @@ https://github.com/microsoft/TypeScript/pull/39094
     [key in keyof T]: T[key]
 }
 也可以用于数组类型！
+
+110-capitalize
+https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#extends-constraints-on-infer-type-variables
+infer 在 ts 4.7 中被增强了，可以在之后使用 extends
