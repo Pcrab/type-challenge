@@ -55,3 +55,6 @@ https://github.com/type-challenges/type-challenges/issues/9115
 不可以使用 & 来合并。
 通常情况下合并得到的类型不会有问题，但如果提供的 key 是一个已有的 key，而提供的对应类型与原有类型不同，& 无法推导出交集，因此会得到 never。
 utils 里的 Equal 需要在任何时候两个类型都完全相等才行，因此会报错。
+
+612-kebabcase
+原来 ts 还有 Uncapitalize 这种类型啊
