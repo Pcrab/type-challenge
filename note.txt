@@ -45,3 +45,7 @@ infer 在 ts 4.7 中被增强了，可以在之后使用 extends
 191-append-arguments
 关于用到的 “any function” 类型 (...args: never[]): unknown
 https://www.reddit.com/r/typescript/comments/muyl55/understanding_args_never_in_typescript_handbook/?rdt=35546
+
+296-permutation
+Distributive Conditional Types
+对 conditional types 使用 extend 后，会变成对每一种可能性都进行一次判断，最后将结果联合
