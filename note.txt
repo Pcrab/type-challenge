@@ -49,3 +49,9 @@ https://www.reddit.com/r/typescript/comments/muyl55/understanding_args_never_in_
 296-permutation
 Distributive Conditional Types
 对 conditional types 使用 extend 后，会变成对每一种可能性都进行一次判断，最后将结果联合
+
+527-append-to-object
+https://github.com/type-challenges/type-challenges/issues/9115
+不可以使用 & 来合并。
+通常情况下合并得到的类型不会有问题，但如果提供的 key 是一个已有的 key，而提供的对应类型与原有类型不同，& 无法推导出交集，因此会得到 never。
+utils 里的 Equal 需要在任何时候两个类型都完全相等才行，因此会报错。
