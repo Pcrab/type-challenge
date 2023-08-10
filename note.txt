@@ -58,3 +58,8 @@ utils 里的 Equal 需要在任何时候两个类型都完全相等才行，因�
 
 612-kebabcase
 原来 ts 还有 Uncapitalize 这种类型啊
+
+1042-isnever
+https://github.com/type-challenges/type-challenges/issues/1076 提到了
+https://github.com/microsoft/TypeScript/commit/ca3d0d37a7d58692a6daadb2fe6b5dc338cf63e8#diff-d9ab6589e714c71e657f601cf30ff51dfc607fc98419bf72e04f6b0fa92cc4b8
+介绍了比较规则
