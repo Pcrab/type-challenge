@@ -75,3 +75,6 @@ https://github.com/type-challenges/type-challenges/issues/13507
 
 2757-partialbykeys
 这里为了同时满足 K extends keyof T 以及不给也能执行，必须默认给 K any
+
+2759-requiredbykeys
+https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers
