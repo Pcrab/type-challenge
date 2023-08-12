@@ -67,3 +67,8 @@ https://github.com/microsoft/TypeScript/commit/ca3d0d37a7d58692a6daadb2fe6b5dc33
 1097-isunion
 https://github.com/type-challenges/type-challenges/issues/1140
 详细介绍了 distributive conditional type
+
+2257-minusone
+https://juejin.cn/post/7217282999918313532 四则运算
+https://github.com/type-challenges/type-challenges/issues/13507
+我的答案不需要用到 RemoveZero
