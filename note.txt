@@ -72,3 +72,6 @@ https://github.com/type-challenges/type-challenges/issues/1140
 https://juejin.cn/post/7217282999918313532 四则运算
 https://github.com/type-challenges/type-challenges/issues/13507
 我的答案不需要用到 RemoveZero
+
+2757-partialbykeys
+这里为了同时满足 K extends keyof T 以及不给也能执行，必须默认给 K any
