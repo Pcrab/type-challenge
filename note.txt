@@ -84,3 +84,7 @@ https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifie
 
 4179-flip
 题目有些错误，PropertyKey 类型包含 Symbol 但不包含 boolean，为了满足 boolean 需要强转到字符串，但 Symbol 不支持这一操作。必须选择性放弃一种类型
+
+4425-greater-than
+最后一个测试用例太长了，必须转字符串判断
+https://github.com/type-challenges/type-challenges/issues/14098 不转的判断方法
