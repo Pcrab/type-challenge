@@ -81,3 +81,6 @@ https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifie
 
 3376-InorderTraversal
 另一个 conditional distributive type 的很好的例子
+
+4179-flip
+题目有些错误，PropertyKey 类型包含 Symbol 但不包含 boolean，为了满足 boolean 需要强转到字符串，但 Symbol 不支持这一操作。必须选择性放弃一种类型
