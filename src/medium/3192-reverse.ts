@@ -19,7 +19,10 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Reverse<T extends unknown[]> = T extends [infer First, ...infer Rest]
+export type Reverse<T extends unknown[]> = T extends [
+    infer First,
+    ...infer Rest,
+]
     ? [...Reverse<Rest>, First]
     : T;
 
