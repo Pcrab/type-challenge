@@ -88,3 +88,6 @@ https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifie
 4425-greater-than
 最后一个测试用例太长了，必须转字符串判断
 https://github.com/type-challenges/type-challenges/issues/14098 不转的判断方法
+
+5821-maptypes
+需要多一次 extend 去除不相关的 map type
