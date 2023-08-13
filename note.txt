@@ -91,3 +91,6 @@ https://github.com/type-challenges/type-challenges/issues/14098 不转的判断�
 
 5821-maptypes
 需要多一次 extend 去除不相关的 map type
+
+8640-number-range
+一个神奇的使用 exclude 的解法 https://github.com/type-challenges/type-challenges/issues/9084#issuecomment-1624989189
