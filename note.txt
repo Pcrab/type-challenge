@@ -94,3 +94,6 @@ https://github.com/type-challenges/type-challenges/issues/14098 不转的判断�
 
 8640-number-range
 一个神奇的使用 exclude 的解法 https://github.com/type-challenges/type-challenges/issues/9084#issuecomment-1624989189
+
+8786-combination
+<T extends unknown[], U extends T[number], ALL extends U>
