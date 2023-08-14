@@ -97,3 +97,7 @@ https://github.com/type-challenges/type-challenges/issues/14098 不转的判断�
 
 8786-combination
 <T extends unknown[], U extends T[number], ALL extends U>
+
+10969-integer
+还可以写成 type Integer<T extends number> = `${T}` extends `${bigint}` ? T : never
+因为 bigint 强制是整数
