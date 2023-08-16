@@ -104,3 +104,9 @@ https://github.com/type-challenges/type-challenges/issues/14098 不转的判断�
 
 16259-to-primitive
 { valueOf } 是一个返回自身的函数，可以通过取返回值直接得到基本类型。如果是 object，可能是 function 也可能是普通对象
+
+25270-transpose !
+可以用 {
+    [key in keyof [1, 2, 3]]: [1, 2, 3][key]
+}
+来造出一个 list
